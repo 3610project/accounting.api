@@ -12,6 +12,12 @@ namespace Accounting.Api.Controllers
     public class TransactionsController : Controller
     {
         private readonly AccountingContext db;
+
+        public TransactionsController(AccountingContext db)
+        {
+            this.db = db;
+        }
+
        
         [HttpGet]
         public IActionResult GetAll()
@@ -19,7 +25,7 @@ namespace Accounting.Api.Controllers
             return Ok(db.Transactions);
         }
 
-        [HttpGet("{ID}", Name="GetBook")]
+        [HttpGet("{ID}", Name="GetTransaction")]
         public IActionResult GetById(int id)
         {
             var transaction = db.Transactions.Find(id);
