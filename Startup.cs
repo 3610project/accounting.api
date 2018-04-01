@@ -9,10 +9,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
-using Fisher.Bookstore.Api.Models;
-using Fisher.Bookstore.Api.Data;
+using Accounting.Api.Models;
+using Accounting.Api.Data;
 
-namespace Fisher.Bookstore.Api
+namespace Accounting.Api
 {
     public class Startup
     {
@@ -26,7 +26,7 @@ namespace Fisher.Bookstore.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<BookstoreContext>(options => options.UseNpgsql(Configuration.GetConnectionString("BookstoreConnection")));
+            services.AddDbContext<AccountingContext>(options => options.UseNpgsql(Configuration.GetConnectionString("AccountingConnection")));
             services.AddMvc();
             services.AddCors(Options =>
             {

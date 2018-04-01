@@ -1,0 +1,10 @@
+C:\3610Project\accounting.api\bin\Debug\netcoreapp2.0\Accounting.Api.deps.json
+C:\3610Project\accounting.api\bin\Debug\netcoreapp2.0\Accounting.Api.runtimeconfig.json
+C:\3610Project\accounting.api\bin\Debug\netcoreapp2.0\Accounting.Api.runtimeconfig.dev.json
+C:\3610Project\accounting.api\bin\Debug\netcoreapp2.0\Accounting.Api.dll
+C:\3610Project\accounting.api\bin\Debug\netcoreapp2.0\Accounting.Api.pdb
+C:\3610Project\accounting.api\obj\Debug\netcoreapp2.0\Accounting.Api.csproj.CoreCompileInputs.cache
+C:\3610Project\accounting.api\obj\Debug\netcoreapp2.0\Accounting.Api.AssemblyInfoInputs.cache
+C:\3610Project\accounting.api\obj\Debug\netcoreapp2.0\Accounting.Api.AssemblyInfo.cs
+C:\3610Project\accounting.api\obj\Debug\netcoreapp2.0\Accounting.Api.dll
+C:\3610Project\accounting.api\obj\Debug\netcoreapp2.0\Accounting.Api.pdb

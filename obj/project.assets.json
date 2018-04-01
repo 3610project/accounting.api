@@ -12599,11 +12599,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\3610Lab\\Fisher.Bookstore.Api\\Fisher.Bookstore.Api.csproj",
-      "projectName": "Fisher.Bookstore.Api",
-      "projectPath": "C:\\3610Lab\\Fisher.Bookstore.Api\\Fisher.Bookstore.Api.csproj",
+      "projectUniqueName": "C:\\3610Project\\accounting.api\\Accounting.Api.csproj",
+      "projectName": "Accounting.Api",
+      "projectPath": "C:\\3610Project\\accounting.api\\Accounting.Api.csproj",
       "packagesPath": "C:\\Users\\osuwz\\.nuget\\packages\\",
-      "outputPath": "C:\\3610Lab\\Fisher.Bookstore.Api\\obj\\",
+      "outputPath": "C:\\3610Project\\accounting.api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
