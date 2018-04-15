@@ -67,7 +67,11 @@ namespace Accounting.Api.Controllers
                 return NotFound();
             }
 
-            currentTransaction.Vendor = currentTransaction.Vendor;
+            currentTransaction.Vendor = newTransaction.Vendor;
+            currentTransaction.Amount = newTransaction.Amount;
+            currentTransaction.Category = newTransaction.Category;
+            currentTransaction.TransactionDate = newTransaction.TransactionDate;
+            currentTransaction.Account = newTransaction.Account;
 
             this.db.Transactions.Update(currentTransaction);
             this.db.SaveChanges();
