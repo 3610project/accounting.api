@@ -53,7 +53,7 @@ namespace Accounting.Api.Controllers
             return CreatedAtRoute("GetTransaction", new { id = transaction.Id}, transaction);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut]
         public IActionResult Put([FromBody]Transaction newTransaction)
         {
             if (newTransaction == null)
