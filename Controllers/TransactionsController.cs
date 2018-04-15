@@ -54,13 +54,13 @@ namespace Accounting.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody]Transaction newTransaction)
+        public IActionResult Put([FromBody]Transaction newTransaction)
         {
-            if (newTransaction == null || newTransaction.Id != id)
+            if (newTransaction == null)
             {
                 return BadRequest();
             }
-            var currentTransaction = this.db.Transactions.FirstOrDefault(x => x.Id == id);
+            var currentTransaction = this.db.Transactions.FirstOrDefault(x => x.Id == newTransaction.Id);
 
             if (currentTransaction == null)
             {
